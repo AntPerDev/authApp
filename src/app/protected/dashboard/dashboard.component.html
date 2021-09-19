@@ -1,0 +1,39 @@
+<div class="limiter">
+  <div class="container-login100" >
+      <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+
+
+<h1>dashboard works!</h1>
+<hr>
+
+
+<p>Esta página solo funciona si estas autenticado</p>
+
+
+<h4>
+  User info.
+</h4>
+
+<pre>
+  {{ usuario | json }}
+</pre>
+
+  <div class="container-login100-form-btn">
+    <div class="wrap-login100-form-btn">
+      <div class="login100-form-bgbtn"></div>
+
+      <button
+        type="submit"
+        class="login100-form-btn"
+        (click)="logout()">LogOut</button>
+    </div>
+  </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
